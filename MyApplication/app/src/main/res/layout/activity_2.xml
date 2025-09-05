@@ -27,7 +27,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="5dp"
         app:layout_constraintBottom_toTopOf="@+id/gatoB"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/caov2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vtitulo"
@@ -43,7 +43,7 @@
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/caov2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/caoB"
         app:layout_constraintTop_toTopOf="@+id/caoB" />
 
@@ -58,9 +58,10 @@
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/caov3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/caoB"
         app:layout_constraintTop_toBottomOf="@+id/caov1" />
+
 
     <TextView
         android:id="@+id/caov3"
@@ -72,7 +73,7 @@
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="@+id/caoB"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/caoB"
         app:layout_constraintTop_toBottomOf="@+id/caov2" />
 
@@ -84,40 +85,11 @@
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         app:layout_constraintBottom_toTopOf="@+id/ratoB"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/gatoV2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/caoB"
         tools:srcCompat="@tools:sample/avatars" />
-
-    <TextView
-        android:id="@+id/gatoV1"
-        android:layout_width="59dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="34dp"
-        android:layout_marginEnd="147dp"
-        android:layout_marginBottom="8dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/gatoV2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/gatoB"
-        app:layout_constraintTop_toTopOf="@+id/gatoB" />
-
-    <TextView
-        android:id="@+id/gatoV2"
-        android:layout_width="59dp"
-        android:layout_height="26dp"
-        android:layout_marginStart="34dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="147dp"
-        android:layout_marginBottom="8dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/gatoV3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/gatoB"
-        app:layout_constraintTop_toBottomOf="@+id/gatoV1" />
 
 
     <TextView
@@ -130,10 +102,38 @@
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="@+id/gatoB"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/gatoB"
         app:layout_constraintTop_toBottomOf="@+id/gatoV2" />
 
+    <TextView
+        android:id="@+id/gatoV2"
+        android:layout_width="59dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="8dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/gatoV3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/gatoB"
+        app:layout_constraintTop_toBottomOf="@+id/gatoV1" />
+
+    <TextView
+        android:id="@+id/gatoV1"
+        android:layout_width="59dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="8dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/gatoV2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/gatoB"
+        app:layout_constraintTop_toTopOf="@+id/gatoB" />
 
     <ImageButton
         android:id="@+id/ratoB"
@@ -143,14 +143,10 @@
         android:layout_marginTop="5dp"
         android:layout_marginBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toStartOf="@+id/ratoV2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gatoB"
         tools:srcCompat="@tools:sample/avatars" />
-
-
-
 
     <TextView
         android:id="@+id/ratoV1"
@@ -162,7 +158,7 @@
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/ratoV2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ratoB"
         app:layout_constraintTop_toTopOf="@+id/ratoB" />
 
@@ -177,9 +173,10 @@
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/ratoV3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ratoB"
         app:layout_constraintTop_toBottomOf="@+id/ratoV1" />
+
 
     <TextView
         android:id="@+id/ratoV3"
@@ -191,7 +188,7 @@
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="@+id/ratoB"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ratoB"
         app:layout_constraintTop_toBottomOf="@+id/ratoV2" />
 
