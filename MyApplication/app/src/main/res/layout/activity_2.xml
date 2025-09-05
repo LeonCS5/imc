@@ -26,12 +26,15 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginBottom="24dp"
+        android:background="#F60000"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/gatoB"
         app:layout_constraintEnd_toStartOf="@+id/caov2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vtitulo"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/caov1"
@@ -86,12 +89,15 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
+        android:background="#FFEB3B"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/ratoB"
         app:layout_constraintEnd_toStartOf="@+id/gatoV2"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/caoB"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:srcCompat="@tools:sample/avatars"
+        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/gatoV1"
@@ -142,6 +148,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="24dp"
+        android:background="#2196F3"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toStartOf="@+id/ratoV2"
         app:layout_constraintStart_toStartOf="parent"
