@@ -81,7 +81,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
-        android:layout_marginBottom="5dp"
         app:layout_constraintBottom_toTopOf="@+id/ratoB"
         app:layout_constraintEnd_toStartOf="@+id/gatoV2"
         app:layout_constraintHorizontal_bias="0.0"
