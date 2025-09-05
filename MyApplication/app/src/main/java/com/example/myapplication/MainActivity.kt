@@ -32,10 +32,6 @@ class MainActivity : AppCompatActivity() {
             val Altura = editTextAltura.text.toString().toDouble()
             val IMC = Peso / ((Altura / 100) * (Altura / 100))
 
-        button.setOnClickListener{
-            val intent = Intent(this, Activity2::class.java)
-            startActivity(intent)
-        }
 
             if (IMC < 18.5){
                 textViewResultado.setBackgroundColor(ContextCompat.getColor(this, R.color.cyan))
@@ -54,6 +50,14 @@ class MainActivity : AppCompatActivity() {
             val imcFormatted = String.format("%.2f",IMC)
             textViewResultado.text = "Seu IMC é: $imcFormatted"
 
+
+        }
+
+        button = findViewById(R.id.button)
+        button.setOnClickListener{
+            val intent = Intent(this,
+                Activity2::class.java)
+            startActivity(intent)
         }
     }
 }

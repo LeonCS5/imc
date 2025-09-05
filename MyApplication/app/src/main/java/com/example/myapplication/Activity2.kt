@@ -14,11 +14,6 @@ class Activity2 : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_2)
 
-        //var animal : Animal
-        var cao = Cao()
-        var gato = Gato()
-        var rato = Rato()
-
 
 
 
